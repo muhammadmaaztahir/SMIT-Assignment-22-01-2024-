@@ -1,0 +1,408 @@
+@font-face {
+    font-family: hexaframe;
+    src: url(Fonts/HexaframeCF-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main {
+    background-image: url(/Images/banner.png);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+
+.nav img {
+    width: 22vw;
+    margin-top: 12px;
+}
+
+.navRight {
+    display: flex;
+    align-items: top;
+    gap: 15px;
+    margin: 10px 20px 0 0;
+}
+
+.navRight p {
+    font-family: sans-serif;
+    font-size: 37px;
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 300;
+}
+
+.navRight p span{
+    color: #F75800;
+}
+
+.navRight img{
+    width: 40px;
+    padding: 4px;
+    background-color: white;
+    height: 2.3rem; 
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 0px 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    height: 2.8rem;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    background-color: transparent;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: none;
+}
+
+.btnWidth{
+    width: 45%;
+}
+
+.btn1 {
+    border: 2px solid #4DA6FF;
+    color: white;
+    font-size: 17px;
+}
+
+.btn1:hover {
+    background-color: #4DA6FF;
+    transition: 0.2s ease-in-out;
+}
+
+.btn2{
+    border: 2px solid #F75800;
+    background-color: #F75800;
+    color: white;
+    font-size: 17px;
+}
+
+.btn2:hover{
+    background-color: transparent;
+    transition: 0.2s ease-in-out;
+}
+
+.btn3 {
+    border: 4px solid #F75800;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px 0px;
+    height: auto;
+    width: 10rem;
+}
+
+.btn3:hover {
+    border: 4px solid #F75800;
+    background-color: #F75800;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.btn4 {
+    border: 3px solid #F75800;
+    color: #F75800;
+    font-size: 17px;
+    margin-top: 5px;
+    padding: 10px 0px;
+    height: auto;
+    width: 12rem;
+}
+
+.btn4:hover {
+    border: 3px solid #F75800;
+    background-color: #F75800;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0px 20px;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: white;
+}
+
+.nav ul li:hover {
+    color: rgb(0, 179, 255);
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+    font-size: 26px;
+    color: white;
+    font-weight: 300;
+    font-family: 'Roboto';
+    margin: 40px auto;
+}
+
+.intro h1 {
+    text-align: center;
+    font-size: 110px;
+    font-weight: 100;
+    margin-bottom: 0.6rem;
+    font-family: 'Roboto';
+    color: white;
+}
+
+.afterMain{
+    display: flex;
+    gap: 40px;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+}
+
+.CPA{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.CPA img{
+    width: 250px;
+}
+
+.CPA h2{
+    font-size: 34px;
+    font-weight: 300;
+    font-family: 'Roboto';
+    border-left: 5px solid #F75800;
+    padding: 5px 30px;
+    color: black;
+}
+
+.afterMain div:nth-child(2){
+    width: 60%;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.cards{
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.cards div{
+    border: 1px solid black;
+    padding: 20px;
+    max-width: 12.5rem;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.cards div:nth-child(2){
+    font-size: 19px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.cards div:hover{
+    border: 1px solid #F75800;
+    cursor: pointer;
+    color: #F75800;
+    transition: 0.2s ease-in-out;
+}
+.cards div img{
+    width: 9rem;
+    margin: 30px 30px 10px 30px;
+}
+.team{
+    margin-top: 100px;
+    background-color: #EEEEEE;
+    height: 28rem;
+    width: 100%;
+    display: flex;
+}
+
+.leftImg{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.leftImg img{
+    overflow: hidden;
+    object-fit: cover;
+    height: 100%;
+    width: 100%
+}
+
+.rightContent{
+    padding: 50px 70px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rightContent h3{
+    font-size: 43px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.rightContent p{
+    text-align: left;
+    width: 90%;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.beforeFooter{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    margin: 90px 0px;
+}
+
+.beforeFooter img{
+    width: 90px;
+    margin: auto;
+}
+
+.beforeFooter h3{
+    font-size: 43px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.beforeFooter p{
+    font-size: 18px;
+    font-family: 'Roboto';
+    width: 72%;
+    line-height: 1.4;
+    font-weight: 300;
+    margin: auto;
+}
+
+.footer{
+    background-color: #122C54;
+    width: 100%;
+    height: 30rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.footerLeft{
+    padding-right: 0px;
+}
+
+.footerLeft img{
+    width: 260px;
+    margin-bottom: 10px;
+}
+
+.footerLeft ul{
+    margin: auto;
+    text-align: center;
+}
+
+.footerLeft ul li{
+    display: inline-block;
+}
+
+.footerLeft ul li a{
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: white;
+}
+
+.footerLeft ul li a:hover{
+    color: #F75800;
+    transition: 0.2s ease-in-out;
+}
+
+.footerRight{
+    padding-left: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-left: 1px solid #2A72BA;
+}
+
+.footerRight h3{
+font-size: 43px;
+font-weight: 300;
+font-family: 'Roboto';
+color: white;
+}
+
+.footerRight p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.footerRight div{
+    font-size: 22px;
+    color: #F75800;
+    font-family: 'Roboto';
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.footerRight div span{
+    color: white;
+    font-weight: 300;
+}
+
+.email:hover{
+    color: #F75800;
+    cursor: pointer;
+}
